@@ -1,3 +1,3 @@
 # groupfinder-webapp
 
-# Heroku link:
+# Heroku link: https://groupfinder-webapp.herokuapp.com/

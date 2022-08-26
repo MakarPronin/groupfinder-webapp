@@ -1,0 +1,306 @@
+#main-container {
+    min-height: 100vh;
+    min-width: 900px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(37, 37, 37);
+    align-content: center;
+}
+  
+#login-container {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgb(179, 231, 214);
+    align-content: center;
+    align-self: center;
+}
+
+#signup-button {
+    align-self: center;
+    margin-left: 50px;
+}
+
+.login-buttons-row{
+    justify-content: center;
+}
+
+#back-button {
+    align-self: center;
+    margin-right: 50px;
+}
+
+#login-button {
+    align-self: center;
+    margin-left: 50px;
+}
+
+.entry-field {
+    border-radius: 6px;
+    margin: 14px;
+}
+
+.alert-text {
+    color: darkred;
+}
+
+#signup-container {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgb(179, 231, 214);
+    align-content: center;
+    align-self: center;
+}
+
+#second-signup-button {
+    align-self: center;
+}
+
+#header-menu-container {
+    width: 100%;
+    height: 60px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: rgb(179, 231, 214);
+}
+
+#username-button {
+    background: none;
+    border: none;
+    color: rgb(0, 169, 203);
+    margin-left: 40px;
+}
+
+.regular-button {
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    border-color: rgba(195, 195, 195, 0.207);
+}
+
+#my-activities-button {
+    width: auto;
+    align-self: center;
+    margin-right: 20px;
+}
+
+#create-activity-button {
+    width: auto;
+    align-self: center;
+    margin-right: 20px;
+}
+
+#activities-container {
+    width: 900px;
+    min-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+
+
+.tag-button {
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.activities-list-item {
+    text-overflow: clip;
+    height: 120px;
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.497);
+    align-items: center;
+    border-radius: 10px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-color: rgba(173, 173, 173, 0.145);
+}
+
+.activities-list-item:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.activity-name {
+    max-width: 40px;
+    font-size: large;
+    text-align: left;
+}
+
+.activity-list-img {
+    height: 115px;
+    object-fit: cover;
+}
+
+.participants-bar {
+    border-radius: 3px;
+    background-color: gray;
+    padding: 0px !important;
+}
+
+.participants-progress {
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgb(179, 231, 214);
+}
+
+#opened-activity-item {
+    min-width: 900px;
+    flex-direction: column;
+    border-radius: 10px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-color: rgba(173, 173, 173, 0.145);
+    background-color: rgb(245, 245, 245);
+}
+
+.opened-activity-img {
+    align-self: center;
+}
+
+.opened-activity-description {
+    max-width: 900px;
+}
+
+.opened-activity-tags {
+    justify-content: left;
+}
+
+.green-button {
+    border-radius: 6px;
+    font-size: large;
+    margin: 20px;
+    background-color: rgb(179, 231, 214);
+    color:black;
+    border-color: rgba(128, 128, 128, 0.207);
+}
+
+.blue-buttons-row {
+    display: flex;
+    justify-content: end;
+}
+
+.disabled-button {
+    border-radius: 6px;
+    font-size: large;
+    margin: 20px;
+    background-color: gray;
+    color:black;
+    border-color: rgba(128, 128, 128, 0.207);
+}
+
+.not-important {
+    color: gray;
+}
+
+.comment {
+    border-radius: 6px;
+    background-color: rgb(211, 239, 230);
+    max-width: 900px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgba(173, 173, 173, 0.145);
+}
+
+#load-comments-button {
+    width: fit-content;
+    justify-self: center;
+}
+
+#add-comment-input {
+    width: 430px;
+}
+
+#app-name-login {
+    color: rgb(179, 231, 214);
+}
+
+#change-password-container {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgb(179, 231, 214);
+    align-content: center;
+    align-self: center;
+}
+
+#change-password-header {
+    align-self: center;
+}
+
+#logout-button {
+    width: auto;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#main-page-button {
+    align-self: center;
+    width: auto;
+    margin-right: 20px;
+}
+
+#create-page-container {
+    padding: 60px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+}
+
+#create-button {
+    justify-self: center;
+}
+
+.entry-field-new-activity {
+    height: 50px;
+    margin: 10px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    border-color:rgb(255, 255, 255);
+}
+
+#invalid-entry-alert {
+    justify-self: center;
+    text-align: center
+}
+
+#new-activity-h {
+    justify-self: center;
+    text-align: center
+}
+
+#load-more-button {
+    width: 300px;
+}
+
+.red-button {
+    border-radius: 6px;
+    font-size: large;
+    margin: 20px;
+    background-color: rgb(255, 56, 95);
+    color:black;
+    border-color: rgba(128, 128, 128, 0.207);
+}

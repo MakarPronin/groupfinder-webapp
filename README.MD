@@ -1,5 +1,5 @@
 # groupfinder-webapp
-GroupFinder allows users to form groups of interests. Users can create an activity and attach an image, description, and other details. Other users can then click the join button to show their interest and add comments.
+GroupFinder allows users to form groups of interests. Users can create an activity and attach an image, description, and other details. Other users can then click the join button to show their interest and add comments. Most information is saved on a server.
 # Render Link (Cloud Application Hosting): https://groupfinder-webapp.onrender.com/
 
 # Screenshots:
